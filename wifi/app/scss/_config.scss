@@ -1,0 +1,86 @@
+$maincolor: #000;
+//TEXT========================================================================================================================================================
+
+.title {
+	font-weight: 700;
+}
+
+.descr {
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 400;
+	text-align: center;
+}
+//button========================================================================================================================================================
+.blackbtn {
+	background: #000000;
+	border-radius: 5px;
+	color: #fff;
+	padding: 22px;
+	font-weight: 700;
+	width: 100%;
+	letter-spacing: 0.05em;
+}
+
+.greybtn {
+	background: #F3F3F3;
+	border-radius: 5px;
+	color: #CDCDCD;
+	padding: 22px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+
+.skipbtn{
+	background: #F3F3F3;
+	border-radius: 5px;
+	color: #CDCDCD;
+	padding: 22px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+
+
+
+//INPUT+TEXTAREA========================================================================================================================================================
+
+.input-title {
+	text-align: left;
+	font-size: 15px;
+	color: #BABABA;
+
+}
+
+.input {
+	border-bottom: 1px solid #696969;
+	width: 100%;
+}
+
+//OTHER========================================================================================================================================================
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 652px;
+	max-width: 943px;
+	width: 100%;
+	background-color: #f8f8f8;
+	border-radius: 30px;
+	align-items: center;
+	@media (max-width: 550px){
+		background-color: #fff;
+	}
+}
+
+.container {
+	max-width: 410px;
+	width: 100%;
+}
+
+
+
+
+
+
+

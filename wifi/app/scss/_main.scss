@@ -1,0 +1,510 @@
+//ACTIVATE========================================================================================================================================================
+
+.activate {
+	&__content {
+		padding: 105px 0px 105px 0px;
+		padding: 20px;
+	}
+	&__title {
+		font-family: "Century Gothic";
+		font-size: 48px;
+		line-height: 59px;
+		letter-spacing: 0.05em;
+		margin-bottom: 70px;
+		@media (max-width: 767.98px) {
+			font-size: 36px;
+			margin-bottom: 40px;
+		}
+	}
+	&__descr {
+		color: #3d3d3d;
+		max-width: 680px;
+		margin: 0 auto 50px;
+		@media (max-width: 767.98px) {
+			font-size: 18px;
+			margin-bottom: 0 auto 25px;
+		}
+	}
+	&__container {
+		max-width: 410px;
+		width: 100%;
+	}
+	&__input {
+		display: block;
+		background-color: #fff;
+		color: #bababa;
+		border: 1px solid #e5e5e5;
+		border-radius: 5px;
+		max-width: 410px;
+		width: 100%;
+		padding: 23px 40px 22px 16px;
+		@media (max-width: 767.98px) {
+			height: 44px;
+			padding: 10px;
+			font-size: 13px;
+		}
+	}
+	&__blackbtn {
+		display: block;
+		margin: 60px 0px 0px 0px;
+		max-height: 68px;
+		max-width: 410px;
+		font-size: 24px;
+		letter-spacing: 0.05em;
+		@media (max-width: 767.98px) {
+			margin: 15px 0px 0px 0px;
+			font-size: 16px;
+			height: 44px;
+			padding: 10px;
+		}
+	}
+}
+
+//MENU========================================================================================================================================================
+
+.menu {
+	&__content {
+	}
+	&__title {
+		font-size: 36px;
+		margin: 0px 0px 100px 0px;
+		padding: 20px;
+		text-align: center;
+		@media (max-width: 767.98px) {
+			margin: 0px 0px 50px 0px;
+		}
+	}
+	&__container {
+		text-align: center;
+	}
+	&__greenbtn {
+		display: block;
+		background: #57ad21;
+		border-radius: 5px;
+		color: #fff;
+		padding: 22px;
+		font-weight: 700;
+		margin: 0px 0px 25px 0px;
+		@media (max-width: 767.98px) {
+			max-height: 61px;
+			font-size: 18px;
+		}
+	}
+	&__greybtn {
+		display: block;
+		margin: 0px 0px 130px 0px;
+		@media (max-width: 767.98px) {
+			max-height: 61px;
+			font-size: 18px;
+		}
+	}
+	&__skipbtn {
+		max-height: 61px;
+		display: block;
+		@media (max-width: 767.98px) {
+			max-height: 35px;
+			font-size: 14px;
+			padding: 10px;
+		}
+	}
+}
+
+//RATING========================================================================================================================================================
+
+.rating {
+	&__content {
+	}
+	&__title {
+		font-family: "Century Gothic";
+		font-size: 36px;
+		margin: 0px 0px 30px 0px;
+	}
+	&__descr {
+		font-family: "Century Gothic";
+		@media (max-width: 767.98px) {
+			font-size: 16px;
+		}
+	}
+	&__container {
+		text-align: center;
+		max-width: 265px;
+		width: 100%;
+	}
+	&__liststar {
+		margin: 60px 0px 60px 0px;
+	}
+	&__input-title {
+	}
+	&__input {
+		max-width: 265px;
+		margin: 0px 0px 40px 0px;
+	}
+	&__blackbtn {
+		max-width: 265px;
+		max-height: 44px;
+		padding: 10px;
+		font-size: 16px;
+		margin: 0px 0px 15px 0px;
+		@media (max-width: 767.98px) {
+			margin: 0px 0px 80px 0px;
+		}
+	}
+	&__skipbtn {
+		max-height: 35px;
+		display: block;
+		font-size: 14px;
+		padding: 10px;
+	}
+}
+
+
+//BADRATING========================================================================================================================================================
+
+
+.badrating {
+	&__content {
+	}
+	&__img {
+		margin: 0px 0px 25px 0px;
+	}
+	&__descr {
+		font-family: 'Century Gothic';
+		text-align: center;
+		margin: 0px 0px 35px 0px;
+		max-width: 795px;
+		@media (max-width: 767.98px){
+			& p:first-child{
+				margin: 0px 0px 20px 0px;
+			}
+		}
+	}
+	&__topic {
+		position: relative;
+		margin: 0px 0px 50px 0px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 19px;
+		word-spacing: 26px;
+		color: #6A6A6A;
+		span{
+			position: absolute;
+			background-color: #696969;
+			bottom: -3px;
+			height: 130%;
+			width: 2px;
+			left: 57px;
+		}
+		@media (max-width: 767.98px){
+			font-size: 13px;
+			margin: 0px 0px 30px 0px;
+			span {
+				left: 48px;
+			}
+		}
+	}
+	&__form {
+		
+	}
+	&__container {
+		text-align: center;
+		max-width: 265px;
+		width: 100%;
+	}
+	&__blackbtn {
+		max-width: 265px;
+		max-height: 44px;
+		padding: 10px;
+		font-size: 16px;
+		margin: 0px 0px 15px 0px;
+		@media (max-width: 767.98px) {
+			font-size: 14px;
+		}
+	}
+	&__greybtn {
+		display: block;
+		max-width: 265px;
+		max-height: 35px;
+		padding: 10px;
+		font-size: 14px;
+		margin: 0px 0px 15px 0px;
+	}
+	&__orangebtn {
+		display: block;
+		max-width: 265px;
+		max-height: 35px;
+		padding: 10px;
+		font-size: 14px;
+		margin: 0px 0px 15px 0px;
+		color: #fff;
+		background: #FF9900;
+		border-radius: 5px;
+		font-weight: 700;
+	}
+}
+
+.form {
+	display: flex;
+	column-gap: 36px;
+	margin: 0px 0px 55px 0px;
+	@media (max-width: 767.98px){
+		flex-direction: column;
+		column-gap: 0;
+		row-gap: 15px;
+		margin: 0px 0px 30px 0px;
+	}
+	&__column {
+		flex: 0 0 50%;
+		&_1 {
+		}
+		&_2 {
+			display: flex;
+			flex-direction: column;
+			row-gap: 30px;
+			@media (max-width: 767.98px){
+				row-gap: 15px;
+			}
+		}
+	}
+
+	&__message {
+		border-bottom: 1px solid #696969;
+		padding: 0px 0px 90px 0px;
+		width: 100%;
+		color: #BABABA;
+		font-size: 15px;
+		@media (max-width: 767.98px){
+			padding: 0px 0px 15px 0px;
+		}
+	}
+	&__row {
+		display: flex;
+		column-gap: 30px;
+	}
+	&__firstname {
+		border-bottom: 1px solid #696969;
+		padding: 0px 0px 30px 0px;
+		max-width: 120px;
+		color: #BABABA;
+		font-size: 15px;
+	}
+	&__lastname {
+		border-bottom: 1px solid #696969;
+		padding: 0px 0px 30px 0px;
+		max-width: 120px;
+		color: #BABABA;
+		font-size: 15px;
+	}
+	&__email {
+		border-bottom: 1px solid #696969;
+		padding: 0px 0px 30px 0px;
+		width: 100%;
+		color: #BABABA;
+		font-size: 15px;
+	}
+}
+
+
+//GOODRATING========================================================================================================================================================
+
+.goodrating {
+	&__content {
+		text-align: center;
+	}
+	&__img {
+		margin: 0px 0px 20px 0px;
+	}
+	&__title {
+		font-size: 36px;
+		font-family: 'Century Gothic';
+		margin: 0px 0px 55px 0px;
+	}
+	&__descrtop {
+		font-family: 'Century Gothic';
+		margin: 0px 0px 20px 0px;
+		max-width: 460px;
+		font-size: 24px;
+		@media (max-width: 767.98px){
+			font-size: 16px;
+			margin: 0;
+		}
+	}
+	&__descrbutton {
+		font-family: 'Century Gothic';
+		margin: 0px 0px 60px 0px;
+		max-width: 582px;
+		font-size: 24px;
+		@media (max-width: 767.98px){
+			font-size: 16px;
+		}
+	}
+	&__container {
+		max-width: 347px;
+	}
+	&__orangebtn {
+		display: block;
+		margin: 0px 0px 35px 0px;
+		background: #FF9900;
+		border-radius: 5px;
+		color: #fff;
+		padding: 20px;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 22px;
+		max-height:58px;
+		height: 100%;
+		@media (max-width: 767.98px){
+			font-size: 14px;
+			margin: 0px 0px 150px 0px;
+		}
+	}
+	&__skipbtn {
+		display: block;
+		max-height: 35px;
+		font-size: 14px;
+		padding: 10px;
+	}
+}
+
+//CONTACT US========================================================================================================================================================
+.contactus {
+	&__content {
+	}
+	&__title {
+		font-size: 36px;
+		margin: 0px 0px 60px 0px;
+	}
+	&__tel {
+		position: relative;
+		margin: 0px 0px 13px 0px;
+		&::before{
+			content:url('../images/call.png');
+			position: absolute;
+			left: -38px;
+		}
+	}
+	&__descr {
+		font-size: 12px;
+		line-height: 15px;
+		letter-spacing: 0.06em;
+		color: #3D3D3D;
+		margin: 0px 0px 55px 0px;
+		& p:first-child{
+			margin: 0px 0px 12px 0px;
+		}
+	}
+	&__form {
+	}
+}
+
+.forms {
+	padding: 20px 15px;
+	border: 1px solid #E5E5E5;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	max-height: 222px;
+	//column-gap: 35px;
+	@media (max-width: 767.98px){
+		//row-gap: 15px;
+	}
+
+	&__row {
+		display: flex;
+		column-gap: 35px;
+		&_1 {
+			margin: 0px 0px 20px 0px;
+		}
+		&_2 {
+		
+		}
+	}
+	&__nameus {
+		border-bottom: 1px solid #696969;
+		padding: 0px 0px 25px 0px;
+		max-width: 115px;
+		color: #BABABA;
+		font-size: 15px;
+		
+	}
+	&__emailus {
+		border-bottom: 1px solid #696969;
+		padding: 0px 0px 25px 0px;
+		max-width: 115px;
+		color: #BABABA;
+		font-size: 15px;
+	}
+	&__messageus{
+		border-bottom: 1px solid #696969;
+		padding: 0px 0px 25px 0px;
+		width: 100%;
+		color: #BABABA;
+		font-size: 15px;
+		margin: 0px 0px 35px 0px;
+	}
+	&__blackbtn {
+		max-width: 265px;
+		max-height: 44px;
+		padding: 10px;
+		font-size: 16px;
+		margin: 0px 0px 15px 0px;
+		@media (max-width: 767.98px) {
+			font-size: 14px;
+		}
+	}
+}
+
+//GETSTARTED========================================================================================================================================================
+
+.getstarted {
+	&__content {
+		text-align: center;
+	}
+	&__title {
+		font-size: 36px;
+		margin: 0px 0px 75px 0px;
+		font-family: 'Century Gothic';
+	}
+	&__subtitle {
+		font-size: 24px;
+		margin: 0px 0px 80px 0px;
+		padding: 0px 20px 0px 20px;
+		font-weight: 700;
+		@media (max-width: 768.98px){
+			margin: 0px 0px 35px 0px;
+		}
+	}
+	&__container {
+		min-width: 265px;
+		text-align: center;
+
+	}
+	&__video {
+		max-width: 264px;
+		min-height: 151px;
+		width: 100%;
+		background: #FFFFFF;
+		border: 2px solid #BABABA;
+		border-radius: 6px;
+		margin: 0px 0px 75px 0px;
+		position: relative;
+		&::before{
+			content:url("../images/youtube.png");
+			position: absolute;
+			top: 24%;
+			left: 34%;
+		}
+		
+	}
+	&__blackbtn {
+		display: block;
+		max-width: 265px;
+		max-height: 44px;
+		padding: 10px;
+		font-size: 16px;
+		@media (max-width: 767.98px) {
+			font-size: 14px;
+		}
+	}
+}
+
