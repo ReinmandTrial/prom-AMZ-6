@@ -10,6 +10,8 @@ html {
 textarea,
 input:matches([type="email"], [type="number"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"]) {
 	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	box-shadow: none !important;
 	background-clip: padding-box;
 }
@@ -80,9 +82,4 @@ button {
 	background: transparent;
 	padding: unset;
 	cursor: pointer;
-}
-input[type="text"] {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 }
