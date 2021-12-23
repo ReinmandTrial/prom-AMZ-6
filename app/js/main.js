@@ -94,20 +94,5 @@ $(document).ready(function () {
          $(".rating__blackbtn").prop('disabled', true);
       }
    });
-   $('input').on("keyup", function () {
-      let val = $(this).val();
-      if (val.length > 2) {
-         $(this).addClass('filled')
-      } else {
-         $(this).removeClass('filled')
-      }
 
-      // let val = $("input").val();
-      if (val.length > 2) {
-         $(".badrating__blackbtn").prop('disabled', false);
-      } else {
-         $(".badrating__blackbtn").prop('disabled', true);
-      }
-   });
-})
-// console.log($("input").length);
+}) 
