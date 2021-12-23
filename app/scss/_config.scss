@@ -55,8 +55,16 @@ $maincolor: #000;
 //INPUT+TEXTAREA========================================================================================================================================================
 
 .input {
+	border: 1px solid transpatent;
 	border-bottom: 1px solid #696969;
 	width: 100%;
+	box-shadow: unset !important;
+	width: stretch;
+	&:focus {
+		box-shadow: unset !important;
+		border: 1px solid transpatent;
+		border-bottom: 1px solid #696969;
+	}
 	&::placeholder {
 		color: #bababa;
 	}
