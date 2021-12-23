@@ -79,7 +79,7 @@ $(document).ready(function () {
       if (count_star <= 3) {
          $('.rating__blackbtn').attr('onclick', 'document.location="badrating.html"');
       } else if (count_star <= 4) {
-         // $('.rating__blackbtn').attr('onclick', 'document.location="badrating.html"');
+         $('.rating__blackbtn').attr('onclick', 'document.location="midrating.html"');
       } else if (count_star <= 5) {
          $('.rating__blackbtn').attr('onclick', 'document.location="goodrating.html"');
       }

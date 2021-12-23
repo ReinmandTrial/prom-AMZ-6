@@ -2,7 +2,6 @@
 
 .activate {
 	&__content {
-		padding: 105px 0px 105px 0px;
 		padding: 20px;
 	}
 	&__title {
@@ -13,7 +12,7 @@
 		margin-bottom: 70px;
 		@media (max-width: 767.98px) {
 			font-size: 36px;
-			margin-bottom: 40px;
+			margin-bottom: 30px;
 		}
 	}
 	&__descr {
@@ -22,7 +21,7 @@
 		margin: 0 auto 50px;
 		@media (max-width: 767.98px) {
 			font-size: 18px;
-			margin-bottom: 0 auto 25px;
+			margin: 0 auto 25px;
 		}
 	}
 	&__container {
@@ -32,9 +31,9 @@
 	&__input {
 		display: block;
 		background-color: #fff;
-			&::placeholder{
-				color: #bababa;
-			}
+		&::placeholder {
+			color: #bababa;
+		}
 		border: 1px solid #e5e5e5;
 		border-radius: 5px;
 		max-width: 410px;
@@ -73,7 +72,7 @@
 		padding: 20px;
 		text-align: center;
 		@media (max-width: 767.98px) {
-			margin: 0px 0px 50px 0px;
+			margin: 0px 0px 30px 0px;
 		}
 	}
 	&__container {
@@ -150,17 +149,17 @@
 	&__input-title {
 	}
 	&__input {
-		height:80px;
+		height: 80px;
 		max-width: 265px;
 		margin: 0px 0px 40px 0px;
 		padding: 0px 0px 5px 0px;
 		font-size: 15px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
 		}
-		@media (max-width: 767.98px){
-			padding: 0px 0px 35px 0px;
-			margin: 0px 0px 30px 0px;
+		@media (max-width: 767.98px) {
+			margin: 0px 0px 35px 0px;
+			height: 45px;
 		}
 	}
 	&__blackbtn {
@@ -195,8 +194,11 @@
 		margin: 0px 0px 35px 0px;
 		max-width: 795px;
 		@media (max-width: 767.98px) {
+			padding-left: 5px;
+			padding-right: 5px;
+			font-size: 14px;
 			& p:first-child {
-				margin: 0px 0px 20px 0px;
+				margin: 0px 0px 15px 0px;
 			}
 		}
 	}
@@ -210,7 +212,7 @@
 		color: #6a6a6a;
 		span {
 			position: absolute;
-			background-color: #696969;
+			background-color: #e5e5e5;
 			bottom: -3px;
 			height: 130%;
 			width: 2px;
@@ -234,7 +236,7 @@
 	&__blackbtn {
 		max-width: 265px;
 		max-height: 44px;
-		padding: 10px;
+		padding: 14px;
 		font-size: 16px;
 		margin: 0px 0px 15px 0px;
 		@media (max-width: 767.98px) {
@@ -292,8 +294,11 @@
 		height: 100%;
 		width: 100%;
 		font-size: 15px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
+		}
+		@media (max-width: 767.98px) {
+			height: 48px;
 		}
 	}
 	&__row {
@@ -305,7 +310,7 @@
 		padding: 0px 0px 30px 0px;
 		max-width: 120px;
 		font-size: 15px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
 		}
 	}
@@ -314,7 +319,7 @@
 		padding: 0px 0px 30px 0px;
 		max-width: 120px;
 		font-size: 15px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
 		}
 	}
@@ -323,14 +328,11 @@
 		padding: 0px 0px 30px 0px;
 		width: 100%;
 		font-size: 15px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
 		}
 	}
 }
-
-
-
 
 //MIDRATING========================================================================================================================================================
 
@@ -344,10 +346,15 @@
 	&__title {
 		margin: 0px 0px 20px 0px;
 		font-size: 36px;
-		padding: 0px 10px 0px 10px;
+		padding: 0px 20px 0px 20px;
 	}
 	&__descr {
 		margin: 0px 0px 30px 0px;
+		@media (max-width: 767.98px) {
+			font-size: 16px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 	&__topic {
 		position: relative;
@@ -372,7 +379,6 @@
 				left: 50%;
 			}
 		}
-	
 	}
 	&__form {
 	}
@@ -384,13 +390,13 @@
 	&__blackbtn {
 		max-width: 265px;
 		max-height: 44px;
-		padding: 10px;
+		padding: 14px;
 		font-size: 16px;
 		margin: 0px 0px 15px 0px;
 		@media (max-width: 767.98px) {
 			font-size: 14px;
-			}
 		}
+	}
 	&__greybtn {
 		display: block;
 		max-width: 265px;
@@ -432,9 +438,6 @@
 	}
 }
 
-
-
-
 //GOODRATING========================================================================================================================================================
 
 .goodrating {
@@ -443,11 +446,17 @@
 	}
 	&__img {
 		margin: 0px 0px 20px 0px;
+		@media (max-width: 767.98px) {
+			margin-bottom: 10px;
+		}
 	}
 	&__title {
 		font-size: 36px;
 		font-family: "Century Gothic";
 		margin: 0px 0px 55px 0px;
+		@media (max-width: 767.98px) {
+			margin-bottom: 30px;
+		}
 	}
 	&__descrtop {
 		font-family: "Century Gothic";
@@ -466,6 +475,8 @@
 		font-size: 24px;
 		@media (max-width: 767.98px) {
 			font-size: 16px;
+			padding: 0 6px 0;
+			margin-bottom: 30px;
 		}
 	}
 	&__container {
@@ -507,10 +518,16 @@
 	&__tel {
 		position: relative;
 		margin: 0px 0px 13px 0px;
+		font-weight: bold;
 		&::before {
 			content: url("../images/call.png");
 			position: absolute;
 			left: -38px;
+			top: -1px;
+		}
+		@media (max-width: 767.98px) {
+			font-size: 18px;
+			margin-bottom: 25px;
 		}
 	}
 	&__descr {
@@ -521,6 +538,14 @@
 		margin: 0px 0px 55px 0px;
 		& p:first-child {
 			margin: 0px 0px 12px 0px;
+			@media (max-width: 767.98px) {
+				margin-bottom: 6px;
+			}
+		}
+		& p:last-child {
+			@media (max-width: 767.98px) {
+				max-width: 130px;
+			}
 		}
 	}
 	&__form {
@@ -554,7 +579,7 @@
 		padding: 0px 0px 25px 0px;
 		max-width: 115px;
 		font-size: 15px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
 		}
 	}
@@ -563,29 +588,27 @@
 		padding: 0px 0px 25px 0px;
 		max-width: 115px;
 		font-size: 15px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
 		}
 	}
 	&__messageus {
 		border-bottom: 1px solid #696969;
-		padding: 0px 0px 25px 0px;
+		padding: 0px 0px 5px 0px;
 		width: 100%;
 		font-size: 15px;
+		height: 45px;
 		margin: 0px 0px 35px 0px;
-		&::placeholder{
+		&::placeholder {
 			color: #bababa;
 		}
 	}
 	&__blackbtn {
 		max-width: 265px;
 		max-height: 44px;
-		padding: 10px;
+		padding: 14px;
 		font-size: 16px;
 		margin: 0px 0px 15px 0px;
-		@media (max-width: 767.98px) {
-			font-size: 14px;
-		}
 	}
 }
 
@@ -622,21 +645,18 @@
 		border-radius: 6px;
 		margin: 0px 0px 75px 0px;
 		position: relative;
-		&::before {
-			content: url("../images/youtube.png");
-			position: absolute;
-			top: 24%;
-			left: 34%;
-		}
+	}
+	&__video-icon {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+		z-index: 20;
 	}
 	&__blackbtn {
 		display: block;
 		max-width: 265px;
-		max-height: 44px;
-		padding: 10px;
+		padding: 14px;
 		font-size: 16px;
-		@media (max-width: 767.98px) {
-			font-size: 14px;
-		}
 	}
 }
