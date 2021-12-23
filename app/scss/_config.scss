@@ -20,40 +20,52 @@ $maincolor: #000;
 	font-weight: 700;
 	width: 100%;
 	letter-spacing: 0.05em;
+	display: block;
+	&:disabled {
+		cursor: not-allowed;
+	}
 }
 
 .greybtn {
-	background: #F3F3F3;
+	background: #f3f3f3;
 	border-radius: 5px;
-	color: #CDCDCD;
+	color: #cdcdcd;
 	padding: 22px;
 	font-weight: 400;
 	letter-spacing: 0.05em;
+	display: block;
+	&:disabled {
+		cursor: not-allowed;
+	}
 }
 
-.skipbtn{
-	background: #F3F3F3;
+.skipbtn {
+	background: #f3f3f3;
 	border-radius: 5px;
-	color: #CDCDCD;
+	color: #cdcdcd;
 	padding: 22px;
 	font-weight: 400;
 	letter-spacing: 0.05em;
+	display: block;
+	&:disabled {
+		cursor: not-allowed;
+	}
 }
-
-
 
 //INPUT+TEXTAREA========================================================================================================================================================
 
 .input-title {
 	text-align: left;
 	font-size: 15px;
-	color: #BABABA;
-
+	color: #bababa;
 }
 
 .input {
 	border-bottom: 1px solid #696969;
 	width: 100%;
+	&::placeholder {
+		color: #bababa;
+	}
 }
 
 //OTHER========================================================================================================================================================
@@ -68,7 +80,7 @@ $maincolor: #000;
 	background-color: #f8f8f8;
 	border-radius: 30px;
 	align-items: center;
-	@media (max-width: 550px){
+	@media (max-width: 550px) {
 		background-color: #fff;
 	}
 }
@@ -77,10 +89,3 @@ $maincolor: #000;
 	max-width: 410px;
 	width: 100%;
 }
-
-
-
-
-
-
-
