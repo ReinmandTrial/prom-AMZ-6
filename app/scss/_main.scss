@@ -137,6 +137,7 @@
 		font-family: "Century Gothic";
 		@media (max-width: 767.98px) {
 			font-size: 16px;
+			margin: 0 -15px;
 		}
 	}
 	&__container {
@@ -212,6 +213,9 @@
 
 .badrating {
 	&__content {
+		@media (max-width: 767.98px) {
+			padding: 50px 20px;
+		}
 	}
 	&__img {
 		margin: 0px 0px 25px 0px;
@@ -222,8 +226,8 @@
 		margin: 0px 0px 35px 0px;
 		max-width: 795px;
 		@media (max-width: 767.98px) {
-			padding-left: 5px;
-			padding-right: 5px;
+			margin-left: -15px;
+			margin-right: -15px;
 			font-size: 14px;
 			& p:first-child {
 				margin: 0px 0px 15px 0px;
@@ -258,11 +262,11 @@
 	}
 	&__container {
 		text-align: center;
-		max-width: 265px;
+		max-width: 270px;
 		width: 100%;
 	}
 	&__blackbtn {
-		max-width: 265px;
+		max-width: 270px;
 		max-height: 44px;
 		padding: 14px;
 		font-size: 16px;
@@ -273,7 +277,7 @@
 	}
 	&__greybtn {
 		display: block;
-		max-width: 265px;
+		max-width: 270px;
 		max-height: 35px;
 		padding: 10px;
 		font-size: 14px;
@@ -281,7 +285,7 @@
 	}
 	&__orangebtn {
 		display: block;
-		max-width: 265px;
+		max-width: 270px;
 		max-height: 35px;
 		padding: 10px;
 		font-size: 14px;
@@ -345,8 +349,7 @@
 	}
 	&__firstname {
 		display: block;
-		max-width: 120px;
-		width: 100%;
+		flex: 1 1 50%;
 		input {
 			border-bottom: 1px solid #696969;
 			padding: 0px 0px 13px 0px;
@@ -359,8 +362,7 @@
 	}
 	&__lastname {
 		display: block;
-		max-width: 120px;
-		width: 100%;
+		flex: 1 1 50%;
 		input {
 			border-bottom: 1px solid #696969;
 			padding: 0px 0px 13px 0px;
@@ -390,6 +392,9 @@
 .midrating {
 	&__content {
 		text-align: center;
+		@media (max-width: 767.98px) {
+			padding: 50px 20px;
+		}
 	}
 	&__img {
 		margin: 0px 0px 30px 0px;
@@ -397,14 +402,12 @@
 	&__title {
 		margin: 0px 0px 20px 0px;
 		font-size: 36px;
-		padding: 0px 20px 0px 20px;
+		// padding: 0px 20px 0px 20px;
 	}
 	&__descr {
-		margin: 0px 0px 30px 0px;
+		margin: 0px 0px 50px 0px;
 		@media (max-width: 767.98px) {
 			font-size: 16px;
-			padding-left: 20px;
-			padding-right: 20px;
 		}
 	}
 	&__topic {
@@ -417,7 +420,7 @@
 		color: #6a6a6a;
 		span {
 			position: absolute;
-			background-color: #696969;
+			background-color: #e5e5e5;
 			bottom: -3px;
 			height: 130%;
 			width: 2px;
@@ -615,13 +618,12 @@
 }
 
 .forms {
-	padding: 20px 15px;
+	padding: 20px 15px 5px;
 	border: 1px solid #e5e5e5;
 	border-radius: 8px;
 	display: flex;
 	flex-direction: column;
 	max-width: 300px;
-	max-height: 222px;
 	//column-gap: 35px;
 	@media (max-width: 767.98px) {
 		//row-gap: 15px;
