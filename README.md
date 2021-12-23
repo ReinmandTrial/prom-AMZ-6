@@ -1,1 +1,5 @@
-# prom-AMZ-6
+# adel
+
+// npm i
+// gulp
+// gulp build

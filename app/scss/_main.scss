@@ -138,6 +138,13 @@
 	&__input {
 		max-width: 265px;
 		margin: 0px 0px 40px 0px;
+		padding: 0px 0px 60px 0px;
+		font-size: 15px;
+		color: #BABABA;
+		@media (max-width: 767.98px){
+			padding: 0px 0px 35px 0px;
+			margin: 0px 0px 30px 0px;
+		}
 	}
 	&__blackbtn {
 		max-width: 265px;
