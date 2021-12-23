@@ -171,10 +171,10 @@
 		height: 76px;
 		max-width: 265px;
 		margin: 0px 0px 40px 0px;
-		padding: 0px 0px 5px 0px;
 		font-size: 15px;
 		textarea {
 			flex: 1 1 auto;
+			padding: 0px 0px 5px 0px;
 		}
 		.input__title {
 			color: #bababa;
@@ -182,7 +182,7 @@
 		}
 		@media (max-width: 767.98px) {
 			margin: 0px 0px 35px 0px;
-			height: 45px;
+			height: 50px;
 		}
 	}
 	&__blackbtn {
@@ -297,6 +297,8 @@
 	display: flex;
 	column-gap: 36px;
 	margin: 0px 0px 55px 0px;
+	max-width: 560px;
+	width: 100%;
 	@media (max-width: 767.98px) {
 		flex-direction: column;
 		column-gap: 0;
@@ -304,7 +306,7 @@
 		margin: 0px 0px 30px 0px;
 	}
 	&__column {
-		flex: 0 0 50%;
+		flex: 0 1 50%;
 		&_1 {
 		}
 		&_2 {
@@ -344,6 +346,7 @@
 	&__firstname {
 		display: block;
 		max-width: 120px;
+		width: 100%;
 		input {
 			border-bottom: 1px solid #696969;
 			padding: 0px 0px 13px 0px;
@@ -357,6 +360,7 @@
 	&__lastname {
 		display: block;
 		max-width: 120px;
+		width: 100%;
 		input {
 			border-bottom: 1px solid #696969;
 			padding: 0px 0px 13px 0px;

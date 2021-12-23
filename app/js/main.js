@@ -85,9 +85,9 @@ $(document).ready(function () {
       }
    });
 
-   $('.rating__input, .js-star-item').on("keyup click", function () {
+   $('.rating__textarea, .js-star-item').on("keyup click", function () {
 
-      let val = $(".rating__input").val();
+      let val = $(".rating__textarea").val();
       if (val.length > 2 && $('.js-star-item').hasClass('active')) {
          $(".rating__blackbtn").prop('disabled', false);
       } else {
