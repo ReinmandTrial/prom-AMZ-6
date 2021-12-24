@@ -212,9 +212,13 @@
 //BADRATING========================================================================================================================================================
 
 .badrating {
+	@media (max-width: 767.98px) {
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
 	&__content {
 		@media (max-width: 767.98px) {
-			padding: 75px 20px;
+			padding: 0px 20px;
 		}
 	}
 	&__descr {
@@ -231,37 +235,31 @@
 		}
 	}
 	&__topic {
-		position: relative;
+		// position: relative;
 		margin: 0px 0px 75px 0px;
 		text-align: center;
 		font-size: 16px;
 		line-height: 19px;
 		color: #6a6a6a;
 		word-spacing: 0px;
+		display: flex;
+		align-items: center;
 		p {
-			display: inline-block;
-			&:last-child {
-				margin: 0px 0px 0px 26px;
-			}
 		}
 		span {
-			position: absolute;
+			display: block;
+			// position: absolute;
 			background-color: #e5e5e5;
-			bottom: -3px;
-			height: 130%;
+			// bottom: -3px;
+			height: 22px;
 			width: 2px;
 			margin: 0px 13px 0px 13px;
 		}
 		@media (max-width: 767.98px) {
-			font-size: 15px;
-			margin: 0px -40px 75px;
+			font-size: 13px;
+			margin: 0px 0px 75px;
 			span {
-				margin: 0px 25px 0px 25px;
-			}
-			p {
-				&:last-child {
-					margin: 0px 0px 0px 50px;
-				}
+				margin: 0px 20px 0px 20px;
 			}
 		}
 	}
@@ -280,16 +278,6 @@
 		margin: 0px 0px 15px 0px;
 		@media (max-width: 767.98px) {
 			font-size: 14px;
-		}
-	}
-
-	&__grey-oran-cont {
-		@media (max-width: 767.98px) {
-			margin: 0 auto;
-			position: absolute;
-			width: 100%;
-			max-width: 270px;
-			top: calc(100vh - 50px);
 		}
 	}
 
@@ -429,37 +417,31 @@
 		}
 	}
 	&__topic {
-		position: relative;
-		margin: 0px 0px 70px 0px;
+		// position: relative;
+		margin: 0px 0px 75px 0px;
 		text-align: center;
 		font-size: 16px;
 		line-height: 19px;
 		color: #6a6a6a;
 		word-spacing: 0px;
+		display: flex;
+		align-items: center;
 		p {
-			display: inline-block;
-			&:last-child {
-				margin: 0px 0px 0px 26px;
-			}
 		}
 		span {
-			position: absolute;
+			display: block;
+			// position: absolute;
 			background-color: #e5e5e5;
-			bottom: -3px;
-			height: 130%;
+			// bottom: -3px;
+			height: 22px;
 			width: 2px;
 			margin: 0px 13px 0px 13px;
 		}
 		@media (max-width: 767.98px) {
-			font-size: 15px;
-			margin: 0px -80px 80px;
+			font-size: 13px;
+			margin: 0px 0px 75px;
 			span {
-				margin: 0px 25px 0px 25px;
-			}
-			p {
-				&:last-child {
-					margin: 0px 0px 0px 50px;
-				}
+				margin: 0px 20px 0px 20px;
 			}
 		}
 	}

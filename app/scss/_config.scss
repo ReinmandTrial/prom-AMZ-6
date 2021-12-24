@@ -63,6 +63,26 @@ $maincolor: #000;
 		justify-content: center;
 	}
 }
+.wrapper {
+	position: relative;
+}
+.grey-oran-cont {
+	@media (max-width: 767.98px) {
+		margin: 0 auto;
+		position: absolute;
+		width: 100%;
+		top: calc(100% - 50px);
+		right: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 0 45px;
+		& > * {
+			width: 100%;
+		}
+	}
+}
 
 //INPUT+TEXTAREA========================================================================================================================================================
 
@@ -78,7 +98,6 @@ $maincolor: #000;
 		border-bottom: 1px solid #696969;
 	}
 }
-		
 
 //OTHER========================================================================================================================================================
 
